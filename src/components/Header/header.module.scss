@@ -1,0 +1,21 @@
+.header {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  .contentWrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+    color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerText {
+      font-size: 24px;
+    }
+
+    .rates {
+      margin: 4px 0;
+    }
+  }
+}

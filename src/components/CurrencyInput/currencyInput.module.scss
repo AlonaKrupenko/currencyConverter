@@ -1,0 +1,34 @@
+.wrapper {
+  border-radius: 4px;
+  max-width: 380px;
+  padding: 16px;
+  color: rgb(52, 52, 52);
+  background-color: white;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  .inputBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    .inputTitle {
+      font-size: 12px;
+    }
+
+    .inputWrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 8px 0 0;
+
+      .input {
+        border: none;
+        outline: none;
+        font-size: 24px;
+        font-weight: bold;
+        width: 80%;
+      }
+    }
+  }
+}

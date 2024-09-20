@@ -1,0 +1,41 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(229, 212, 192);
+  background: linear-gradient(
+    0deg,
+    rgba(229, 212, 192, 1) 0%,
+    rgba(197, 222, 205, 1) 100%
+  );
+
+  .currenciesWrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 42px auto 0;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media (max-width: 886px) {
+      flex-direction: column;
+    }
+  }
+
+  .iconWrapper {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+    path {
+      stroke: #394539;
+    }
+
+    &:hover {
+      path {
+        stroke: rgb(19, 19, 19);
+      }
+    }
+  }
+}
